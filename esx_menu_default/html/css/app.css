@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+
+.menu {
+	font-family: 'Poppins', sans-serif;
+	font-family: Verdana;
+	min-width: 200px;
+	color: #fff;
+	position: absolute;
+	border-radius: 25px;
+}
+
+.menu.align-left {
+	right: 1%;
+	top: 34%;
+}
+
+.menu.align-top-left {
+	right: 1%;
+	top: 34%;
+}
+
+.menu.align-top {
+	right: 1%;
+	top: 34%;
+}
+
+.menu.align-top-right {
+	right: 1%;
+	top: 34%;
+}
+
+.menu.align-right {
+	right: 1%;
+	top: 34%;
+	
+}
+
+.menu.align-bottom-right {
+	right: 1%;
+	top: 34%;
+}
+
+.menu.align-bottom {
+	right: 1%;
+	top: 34%;
+}
+
+.menu.align-bottom-left {
+	right: 1%;
+	top: 34%;
+}
+
+.menu.align-center {
+	right: 1%;
+	top: 34%;
+}
+
+.menu .head {
+	margin-bottom: 2px;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: block;
+	background-size: cover;
+	padding: 0.7vh;
+	text-align: center;
+	margin-top: 0.2vh;
+	border-radius: 1vh;
+	height: 25px;
+	line-height: 22px;
+	color: #000;
+    text-shadow: 0px 0px 3px #00ffff, 0px 0px 2px #00ffff, 0px 0px 4px #00ffff, 0px 0px 9px #00ffff, 0px 0px 7px #0ff;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(https://images6.alphacoders.com/922/thumb-350-922275.png);
+	
+}
+
+.menu .menu-items {
+	max-height: 295px;
+	overflow-y: hidden;
+}
+
+.menu .menu-items .menu-item {
+	margin-bottom: 2px;
+  	font-family: 'Poppins', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	background-color: #000000ad;
+	background-size: cover;
+	padding: 0.7vh;
+	text-align: center;
+	margin-top: 0.2vh;
+	border-radius: 1vh;
+	height: 25px;
+	line-height: 22px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	 
+}
+
+.menu .menu-items .menu-item.selected {
+	font-family: 'Coda Caption', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+	color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px #000000, 0px 0px 2px #000000, 0px 0px 4px #000000, 0px 0px 9px #000000, 0px 0px 7px rgb(0, 0, 0);
+	animation: hue 5s linear infinite;
+	 -webkit-animation: hue 15s linear infinite;
+	 box-shadow: 0 0 25px rgb(0 234 255) inset;
+	 border-radius: 1vh;
+	 
+	 background-image: url(https://fondosmil.com/fondo/7700.jpg);
+	 
+}
+
+.menu .menu-items .menu-item.selected:before {
+    content: "\f25d";
+    font-weight: bold;
+    font-family: FontAwesome;
+    padding-right: 4px;
+	color:rgb(255, 255, 255);
+}
+.menu .menu-items .menu-item.selected:after {
+    content: "\f25d";
+    font-weight: bold;
+    font-family: FontAwesome;
+    padding-right: 4px;
+	color:rgb(255, 255, 255);
+}
+
+
+ @-webkit-keyframes hue {
+	 0% { -webkit-filter: hue-rotate(0deg); }
+	 50% { -webkit-filter: hue-rotate(360deg); }
+	 100% { webkit-filter: hue-rotate(0deg); }
+ }
+ @-moz-keyframes hue {
+	 0% { filter: hue-rotate(0deg); }
+	 50% { filter: hue-rotate(360deg); }
+	 100% { filter: hue-rotate(0deg); }
+ }
+ @-ms-keyframes hue {
+	 0% { filter: hue-rotate(0deg); }
+	 50% { filter: hue-rotate(360deg); }
+	 100% { filter: hue-rotate(0deg); }
+ }
+ @-o-keyframes hue {
+	 0% { filter: hue-rotate(0deg); }
+	 50% { filter: hue-rotate(360deg); }
+	 100% { filter: hue-rotate(0deg); }
+ }
+ @keyframes hue {
+	 0% { filter: hue-rotate(0deg); }
+	 50% { filter: hue-rotate(360deg); }
+	 100% { filter: hue-rotate(0deg); }
+ }
